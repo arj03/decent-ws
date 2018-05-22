@@ -1,0 +1,19 @@
+{
+  "name": "decent-ws",
+  "version": "1.0.0",
+  "description": "websockets for decent",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/evbogue/decent-ws.git"
+  },
+  "author": "Ev Bogue <ev@evbogue.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/evbogue/decent-ws/issues"
+  },
+  "homepage": "https://github.com/evbogue/decent-ws#readme"
+}
