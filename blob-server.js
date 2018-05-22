@@ -2,11 +2,6 @@ var Stack = require('stack')
 var BlobsHttp = require('multiblob-http')
 var Emoji = require('emoji-server')
 
-function send(res, obj) {
-  res.writeHead(200, {'Content-Type': 'application/json'})
-  res.end(JSON.stringify(obj, null, 2))
-}
-
 module.exports = function (sbot, layers) {
   return Stack(
     function (req, res, next) {
