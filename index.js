@@ -15,7 +15,8 @@ function toSodiumKeys(keys) {
   }
 }
 
-var READ_AND_ADD = [ //except for add, of course
+// you need to add manifest items that are allowed below to use them over websockets
+var READ_AND_ADD = [
   'get',
   'getLatest',
   'createLogStream',
@@ -86,7 +87,6 @@ exports.init = function (sbot, config) {
     pull(stream, rpc.createStream(), stream)
   })
 
-  //close when the server closes.
   sbot.close.hook(function (fn, args) {
     close()
     fn.apply(this, args)
