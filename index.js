@@ -32,7 +32,8 @@ var READ_AND_ADD = [
   'add',
   'links',
   'query.read',
-  'links2.read'
+  'links2.read',
+  'backlinks.read'
 ]
 
 
