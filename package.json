@@ -1,6 +1,6 @@
 {
   "name": "decent-ws",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "websockets for decent",
   "main": "index.js",
   "scripts": {
