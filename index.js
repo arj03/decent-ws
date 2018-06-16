@@ -34,7 +34,6 @@ var READ_AND_ADD = [
   'query.read',
   'links2.read',
   'backlinks.read',
-  'friends',
   'ssb-names'
 ]
 
